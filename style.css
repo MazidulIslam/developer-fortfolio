@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 35px;
+}
 .orange-color {
   color: orange;
 }
@@ -27,11 +30,12 @@ h1 {
   font-weight: 400;
 }
 .top-banner {
-  margin-bottom: 120px;
+  height: 90vh;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
 .dream-big {
+  height: 100vh;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -41,15 +45,26 @@ h1 {
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
-  padding-left: 30px;
+  padding-left: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
 }
 .experience-area {
+  height: 90vh;
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
-  margin-bottom: 60px;
+}
+#experience {
+  margin-left: 5%;
+}
+#experience::after {
+  content: "";
+  background: orange;
+  display: block;
+  height: 4px;
+  width: 290px;
+  margin: 20px 5px;
 }
 #full-stack {
   border-image: linear-gradient(salmon, tomato);
