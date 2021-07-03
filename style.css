@@ -49,6 +49,7 @@ h1 {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
+  margin-bottom: 60px;
 }
 #full-stack {
   border-image: linear-gradient(salmon, tomato);
