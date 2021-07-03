@@ -58,14 +58,14 @@ h2 {
 #experience {
   margin-left: 5%;
 }
-#experience::after {
+/* #experience::after {
   content: "";
   background: orange;
   display: block;
   height: 4px;
   width: 290px;
   margin: 20px 5px;
-}
+} */
 #full-stack {
   border-image: linear-gradient(salmon, tomato);
   border-image-slice: 1;
