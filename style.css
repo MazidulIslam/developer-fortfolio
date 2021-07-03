@@ -51,7 +51,7 @@ h1 {
   background-position: left;
 }
 #full-stack {
-  border-image: linear-gradient(salmon, orange);
+  border-image: linear-gradient(salmon, tomato);
   border-image-slice: 1;
   border-left: 5px solid;
 }
